@@ -1,0 +1,145 @@
+@media screen and (min-width:940px) {
+	.container {
+			width: 940px;
+	}
+}
+/*---------------------------------*/
+@media screen and (max-width:939px) {
+	.container {
+			width: 800px;
+	}
+	.navigation {
+		margin: 0 20.2%;
+	}
+	#first_section .slider .slide_section {
+		width: 800px;
+	}
+	#second_section {
+		height: 630px;
+	}
+	#second_section .left_section {
+		width: 390px;
+	}
+	.myPhoto {
+		width: 390px;
+	}
+}
+/*---------------------------------*/
+@media screen and (max-width:799px) {
+	.container {
+		width: 540px;
+	}
+	.navigation {
+		margin: 0 5.9%;
+	}
+	#first_section .slider .slide_section {
+		width: 500px !important;
+	}
+	.slide_section li {
+		width: 500px;
+	}
+	.rslides_tabs {
+		left: 42%;
+	}
+	#second_section {
+		height: 1080px;
+		margin-top: 10px;
+	}
+	#second_section .left_section {
+		width: 500px;
+	}
+	.myPhoto {
+		width: 500px;
+	}
+}
+/*---------------------------------*/
+@media screen and (max-width:539px) {
+	.container {
+			width: 320px;
+	}
+	.navigation {
+		display: none;
+	}
+	.enter_button {
+		margin-left: 26.88%;
+	}
+	#first_section .slider .slide_section {
+		width: 320px !important;
+	}
+	.slide_section li {
+		width: 320px;
+	}
+	.prev, .next {
+		display: none;
+	}
+	.rslides_tabs {
+		left: 35%;
+	}
+	#second_section {
+		height: 1161px;
+		margin-top: 10px;
+	}
+	#second_section .left_section {
+		width: 320px;
+	}
+	#second_section .left_section .about_me_head {
+		font-size: 30px;
+		text-align: center;
+	}
+	.myPhoto {
+		width: 320px;
+	}
+	#third_section .form_wrap {
+		width: 320px;
+	}
+}
+/*---------------------------------*/
+@media screen and (max-width:319px) {
+	.container {
+			width: 275px;
+	}
+	.navigation {
+		display: none;
+	}
+	.enter_button {
+		margin-left: 14.9%;
+	}
+	#first_section .slider .slide_section {
+		width: 275px !important;
+	}
+	.slide_section li {
+		width: 275px;
+		top: 40px;
+	}
+	.prev, .next {
+		display: none;
+	}
+	.rslides_tabs {
+		left: 32%;
+	}
+	#second_section {
+		height: 1295px;
+		margin-top: 0;
+	}
+	#second_section .left_section {
+		width: 275px;
+	}
+	#second_section .left_section .about_me_head {
+		font-size: 35px;
+		text-align: center;
+	}
+	.myPhoto {
+		width: 275px;
+	}
+	#third_section .form_wrap {
+		width: 275px;
+	}
+	#third_section .form_wrap #reg_form input, select {
+		padding: 0 0 0 5px;
+		text-align: center;
+	}
+	#third_section .form_wrap #reg_form select {
+	width: 265px;
+}
+
+}
